@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|c:\\users\\zex\\source\\repos\\scientific-calculator\\scientific-calculator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|solutionrelative:scientific-calculator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|c:\\users\\zex\\source\\repos\\scientific-calculator\\scientific-calculator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|solutionrelative:scientific-calculator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|c:\\users\\zex\\source\\repos\\scientific-calculator\\scientific-calculator\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CECF92FC-677B-4DF0-8AE7-0DC571A89C66}|scientific-calculator\\scientific-calculator.csproj|solutionrelative:scientific-calculator\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\AppShell.xaml",
+              "RelativeDocumentMoniker": "scientific-calculator\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\AppShell.xaml",
+              "RelativeToolTip": "scientific-calculator\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T08:52:59.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "scientific-calculator\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\MainPage.xaml.cs*",
+              "RelativeToolTip": "scientific-calculator\\MainPage.xaml.cs*",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T09:52:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\MainPage.xaml",
+              "RelativeDocumentMoniker": "scientific-calculator\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\ZeX\\source\\repos\\scientific-calculator\\scientific-calculator\\MainPage.xaml",
+              "RelativeToolTip": "scientific-calculator\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-03T09:47:13.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

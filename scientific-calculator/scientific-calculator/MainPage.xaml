@@ -1,0 +1,82 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="scientific_calculator.MainPage">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Button1" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#3D3D3D" />
+                <Setter Property="TextColor" Value="#FFFFFF" />
+                <Setter Property="FontSize" Value="24" />
+            </Style>
+            <Style x:Key="Button2" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#3D3D3D" />
+                <Setter Property="TextColor" Value="#FF8624" />
+                <Setter Property="FontSize" Value="24" />
+            </Style>
+            <Style x:Key="Button3" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#FF8624" />
+                <Setter Property="TextColor" Value="#FFFFFF" />
+                <Setter Property="FontSize" Value="24" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Label x:Name="DisplayLabel"
+            Grid.Row="0"
+            Text="0"
+            FontSize="60"
+            HorizontalOptions="End"/>
+
+
+        <Grid Grid.Row="1" ColumnSpacing="10" RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+   
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Ans" Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="0" Style="{StaticResource Button2}" />
+            <Button Text="AC" Clicked="OnButtonClicked" Grid.Column="1" Grid.Row="0" Style="{StaticResource Button2}" />
+            <Button Text="⌫" Clicked="OnButtonClicked" Grid.Column="2" Grid.Row="0" Style="{StaticResource Button2}" />
+            <Button Text="=" Clicked="OnButtonClicked" Grid.Column="3" Grid.Row="0" Style="{StaticResource Button3}" />
+
+            <Button Text="7" Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="1" Style="{StaticResource Button1}" />
+            <Button Text="8" Clicked="OnButtonClicked" Grid.Column="1" Grid.Row="1" Style="{StaticResource Button1}" />
+            <Button Text="9" Clicked="OnButtonClicked" Grid.Column="2" Grid.Row="1"  Style="{StaticResource Button1}" />
+            <Button Text="÷" Clicked="OnButtonClicked" Grid.Column="3" Grid.Row="1" Style="{StaticResource Button2}" />
+
+            <Button Text="4" Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="2" Style="{StaticResource Button1}" />
+            <Button Text="5" Clicked="OnButtonClicked" Grid.Column="1" Grid.Row="2" Style="{StaticResource Button1}" />
+            <Button Text="6" Clicked="OnButtonClicked" Grid.Column="2" Grid.Row="2" Style="{StaticResource Button1}" />
+            <Button Text="×" Clicked="OnButtonClicked" Grid.Column="3" Grid.Row="2" Style="{StaticResource Button2}" />
+
+            <Button Text="1" Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="3" Style="{StaticResource Button1}" />
+            <Button Text="2" Clicked="OnButtonClicked" Grid.Column="1" Grid.Row="3" Style="{StaticResource Button1}" />
+            <Button Text="3" Clicked="OnButtonClicked" Grid.Column="2" Grid.Row="3" Style="{StaticResource Button1}" />
+            <Button Text="-" Clicked="OnButtonClicked" Grid.Column="3" Grid.Row="3" Style="{StaticResource Button2}" />
+
+            <Button Text="0" Clicked="OnButtonClicked" Grid.Column="0" Grid.Row="4" Style="{StaticResource Button1}" />
+            <Button Text="." Clicked="OnButtonClicked" Grid.Column="1" Grid.Row="4" Style="{StaticResource Button1}" />
+            <Button Text="%" Clicked="OnButtonClicked" Grid.Column="2" Grid.Row="4" Style="{StaticResource Button1}" />
+            <Button Text="+" Clicked="OnButtonClicked" Grid.Column="3" Grid.Row="4" Style="{StaticResource Button2}" />
+        </Grid>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\Users\ZeX\source\repos\scientific-calculator\scientific-calculator\scientific-calculator.csproj;x64
